@@ -1,4 +1,4 @@
-import { generateId } from "./helpers";
+import { generateId } from "../config/helpers";
 
 interface Player {
   id: string;

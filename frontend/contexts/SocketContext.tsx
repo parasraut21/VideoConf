@@ -18,7 +18,7 @@ export function SocketProvider({ children }: SocketContextProps): JSX.Element {
 
   useEffect(() => {
     if (!id) return;
-    const newSocket = io("http://localhost:5000", {
+    const newSocket = io("http://localhost:8000", {
       query: { id },
     });
     setSocket(newSocket);

@@ -17,6 +17,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Meet/VideFrame.jsx", "components/Meet/Meet.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Meet/VideFrame.jsx", "components/Meet/Meet.jsx", "components/Meet/Menu.jsx"],
   "exclude": ["node_modules"]
 }
